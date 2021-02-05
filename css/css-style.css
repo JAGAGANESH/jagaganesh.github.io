@@ -9680,15 +9680,19 @@ textarea.form-control {
     top: 100px;
     left: 50%-171px;
     opacity: 0.1;
-    @media only screen and (max-width: 768px){
-    /*---------Mobile----*/
-    }
-    @media only screen and (min-width: 600px) {
-    /*-----Tablet-----*/
-        display: none;
-    }
-    @media only screen and (min-width: 768px) {
-    /*-----Destop-----*/
-        display: none;
 }
+@media only screen and (max-width: 768px){
+    /*---------Mobile----*/
+}
+@media only screen and (min-width: 600px) {
+    /*-----Tablet-----*/
+    #my-photo {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /*-----Destop-----*/
+    #my-photo {
+       display: none;
+    }
 }
