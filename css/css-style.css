@@ -9677,7 +9677,7 @@ textarea.form-control {
 #my-photo {
     z-index: -10;
     position: absolute;
-    top: 150px;
+    top: 125px;
     left: 50%-171px;
     opacity: 0.1;
 }
