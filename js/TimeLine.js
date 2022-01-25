@@ -15,7 +15,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 function LoadImage() {
   for(let i=2001;i<=2022;i=i+2) {
-  document.getElementById("timeline").innerHTML += "<li><div class='timeline-badge'>"+i+"</div><div class='timeline-panel'><div class='timeline-body'><p><img src='"+i+".jpg'></p></div></div></li>";
-  document.getElementById("timeline").innerHTML += "<li class='timeline-inverted'><div class='timeline-badge warning'>"+(i+1)+"</div><div class='timeline-panel'><div class='timeline-body'><p><img src='"+(i+1)+".jpg'></p></div></div></li>";
+  document.getElementById("timeline").innerHTML += "<li><div class='timeline-badge'>"+i+"</div><div class='timeline-panel'><div class='timeline-body'><p><img src='images/Nerangal/"+i+".jpg'></p></div></div></li>";
+  document.getElementById("timeline").innerHTML += "<li class='timeline-inverted'><div class='timeline-badge warning'>"+(i+1)+"</div><div class='timeline-panel'><div class='timeline-body'><p><img src='images/Nerangal/"+(i+1)+".jpg'></p></div></div></li>";
 }
 }
