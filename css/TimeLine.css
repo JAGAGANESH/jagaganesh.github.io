@@ -189,6 +189,7 @@ img {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Times New Roman';
     background: -webkit-linear-gradient(red, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
