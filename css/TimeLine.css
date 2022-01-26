@@ -144,6 +144,11 @@
   }
 
 @media (max-width: 767px) {
+  
+  .HeadColor {
+      display: none;
+  }
+    
   ul.timeline:before {
       left: 40px;
   }
