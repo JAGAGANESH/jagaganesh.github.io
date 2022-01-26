@@ -184,3 +184,12 @@ img {
   object-fit: contain;
   margin: 0px;
 }
+
+#neram {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
