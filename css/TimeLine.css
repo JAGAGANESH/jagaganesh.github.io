@@ -194,3 +194,8 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.HeadColor {
+    background-color: black;
+}
+  
